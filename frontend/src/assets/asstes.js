@@ -3,6 +3,9 @@ import busket_icon from './busket.png'
 import header_img from './header.png'
 import search from './search.png'
 import cross_icon from './cross_icon.png'
+import profile_icon from './profile.png'
+import bag_icon from './bag.png'
+import logout_icon from './logout.png'
 
 import menu_1 from './food1.jpg'
 import menu_2 from './food2.jpg'
@@ -48,6 +51,10 @@ export const asstes = {
   play_store,
   app_store,
   cross_icon,
+
+  profile_icon,
+  bag_icon,
+  logout_icon,
   
   menu_1,
   menu_2,
@@ -68,37 +75,37 @@ export const asstes = {
 export const menu_list = [
   {
     menu_name: "Salad",
-    menu_image:menu_1,
+    menu_image: menu_1,
   },
   {
     menu_name: "Rolls",
-    menu_image:menu_2,
+    menu_image: menu_2,
   },
   {
     menu_name: "Deserts",
-    menu_image:menu_3,
+    menu_image: menu_3,
   },
   {
     menu_name: "Sandwich",
-    menu_image:menu_4,
+    menu_image: menu_4,
   },
   {
     menu_name: "new",
-    menu_image:menu_5,
+    menu_image: menu_5,
   },
   {
-    menu_name: "new-menu",
-    menu_image:menu_6,
+    menu_name: "Noodles",
+    menu_image: menu_6,
   },
   {
     menu_name: "Drinks",
-    menu_image:menu_7,
+    menu_image: menu_7,
   },
   {
     menu_name: "Juice",
-    menu_image:menu_8,
+    menu_image: menu_8,
   },
-]
+];
 
 export const food_list = [
   {
